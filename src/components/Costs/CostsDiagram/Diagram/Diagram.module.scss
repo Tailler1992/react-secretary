@@ -1,0 +1,11 @@
+.diagram {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 5px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #0C817B;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}

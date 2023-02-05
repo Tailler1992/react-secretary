@@ -1,0 +1,33 @@
+.filter {
+  padding: 0 1rem;
+  color: white;
+
+  label {
+    color: #dfdedf;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  select {
+    padding: 7px 6px;
+    font: inherit;
+    font-size: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+
+    &:hover,
+    &:focus,
+    &:active {
+      outline: 3px solid #5452CC;
+    }
+  }
+}
+
+.control {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+

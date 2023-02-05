@@ -1,0 +1,24 @@
+.nav {
+  ul {
+    display: flex;
+    column-gap: 10px;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    display: inline-block;
+    padding: 10px;
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #5452CC;
+    text-decoration: none;
+    border-radius: 10px;
+
+    &:hover {
+      background-color: rgba(84, 82, 204, 0.7);
+    }
+  }
+}

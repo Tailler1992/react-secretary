@@ -1,0 +1,28 @@
+.bar {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.label {
+    flex-basis: 65px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.inner {
+    height: 10px;
+    flex: 1;
+    border-radius: 12px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.fill {
+    background: #282828;
+    height: 100%;
+    transition: all 0.3s ease-out;
+}
+
+

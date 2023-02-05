@@ -1,0 +1,61 @@
+.new-cost {
+  text-align: center;
+
+  button {
+    margin-right: 3px;
+    padding: 10px;
+    font: inherit;
+    font-size: 13px;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    background: #5452CC;
+    border-radius: 10px;
+
+    &:hover,
+    &:active {
+      background: rgba(84, 82, 204, 0.7);
+    }
+  }
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.control {
+  label {
+    display: block;
+    color: #dfdedf;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  input {
+    max-width: 100%;
+    width: 20rem;
+    padding: 7px 6px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font: inherit;
+    font-size: 12px;
+
+    &:hover,
+    &:focus,
+    &:active {
+      outline: 3px solid #5452CC;
+    }
+  }
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
